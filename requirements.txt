@@ -1,0 +1,6 @@
+pyspark>=3.4.0
+delta-spark>=2.4.0
+pyyaml>=6.0
+python-dateutil>=2.8.2
+pytest>=7.0.0
+pytest-cov>=4.0.0

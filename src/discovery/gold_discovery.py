@@ -1,0 +1,2 @@
+class GoldDiscovery:
+    pass

@@ -1,0 +1,22 @@
+# Reconciliation Framework Configuration
+catalog_name: "dev_catalog"
+schema_name: "gold_schema"
+bronze_tables:
+  - name: "vls_deal"
+    business_date_column: "business_date"
+  - name: "lsd"
+    business_date_column: "business_date"
+  - name: "credit_agreement"
+    business_date_column: "business_date"
+output_tables:
+  recon_run: "recon_run_summary"
+  duplicate_check: "duplicate_check_details"
+  column_match: "column_match_details"
+  mismatch_summary: "mismatch_summary"
+  unique_detail: "unique_details"
+logging:
+  level: "INFO"
+  enable_debug_print: false
+  log_file_path: "logs/reconciliation.log"
+cache_enabled: true
+partition_size: "200MB"

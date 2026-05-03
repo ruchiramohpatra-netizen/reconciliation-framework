@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv/
+env/
+logs/*.log
+.databricks/
+.vscode/
+.idea/
+.pytest_cache/
+.coverage
+.DS_Store
+config/secrets.yaml
