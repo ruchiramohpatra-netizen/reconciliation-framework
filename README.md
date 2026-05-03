@@ -23,3 +23,11 @@ Only two parameters change per run:
 - column_match
 - mismatch_summary
 - unique_detail
+
+## Key Highlights
+
+- Modular OOP design with single source of truth (ReconContext)
+- Orchestrator only binds modules, no business logic
+- BDM mapping logic not duplicated across files
+- Independent persistence methods for each output table
+- PySpark integration with Delta Lake
